@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,500;1,900&family=Titan+One&display=swap');
+
+*{
+    margin:0;
+    padding:.6rem;
+    border:0;
+    text-decoration:none;
+    box-sizing:border-box;
+    font-size:62.5%;
+    background:var(--fundo);
+
+    --fundo: #F3EFF0;
+    --fonte:#0F1120;
+    --verde:#45E8C3;
+    --azul:#5386FA;
+}
