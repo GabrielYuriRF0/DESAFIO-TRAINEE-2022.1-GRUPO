@@ -1,0 +1,25 @@
+.button button{
+    font-size:2rem;
+    cursor:pointer;
+
+    width:18rem;
+    height:4.1rem;
+
+    border-radius:10rem;
+    color:var(--fundo);
+
+    transition:filter .2s;
+
+}
+
+.button button:hover{
+    filter:brightness(1.2);
+}
+
+.buttons .green{
+    background-color:var(--verde)
+}
+
+.buttons .blue{
+    background-color:var(--azul)
+}

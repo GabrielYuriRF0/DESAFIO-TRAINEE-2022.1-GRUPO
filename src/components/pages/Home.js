@@ -17,17 +17,6 @@ function Home() {
           <button>fale conosco</button>
         </div>
       </div>
-      <div className="slide">
-        <div className="slide-1">
-          <button className="button"></button>
-        </div>
-        <div className="slide-2">
-          <button className="button"></button>
-        </div>
-        <div className="slide-3">
-          <button className="button"></button>
-        </div>
-      </div>
       <div className="footer">
         <footer>
           © 2022 Processo seletivo CodeX - Todos os direitos reservados.

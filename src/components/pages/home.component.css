@@ -18,23 +18,13 @@
     color:var(--fonte);
     display:inline-flex;
     justify-content:space-between;
-    padding:1.5rem
+    padding:1.5rem;
+    cursor:pointer
 
 }
 
-.home .slide{
-    position:absolute;
-    top:50%;
-}
-
-.home .slide .button{
-    width:2rem;
-    height:2rem;
-    border-radius:50%;
-    margin-bottom:.5rem;
-    margin-top:.5rem;
-    background-color: var(--verde);
-
+.home .menu .menu-opcoes button:hover{
+    border-bottom: 2px solid black
 }
 
 .home .footer{
