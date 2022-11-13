@@ -1,6 +1,9 @@
 .container{
+    background:var(--fundo);
     display:grid;
     grid-template-columns:40% 60%;
+
+    overflow:hidden;
 
     grid-template-areas: 
     'textos imagem'
@@ -11,7 +14,7 @@
 
     position:absolute;
     left:15rem;
-    top:18rem
+    top:23rem
 
 }
 
@@ -23,14 +26,14 @@
     font-family: 'Poppins', sans-serif;
     font-weight:900;
     font-size:3.3rem;
-    line-height: 4.5rem;
+    line-height: 3.5rem;
     color: var(--fonte);
     text-align:left;
 }
 
 
 .content .subtitle p{
-    margin-top:-2rem;
+    margin-top:1rem;
     font-family: 'Poppins', sans-serif;
     font-weight:500;
     font-size:3.2rem;
@@ -52,7 +55,7 @@
 }
 
 .buttons{
-    margin-top:2rem;
+    margin-top:4rem;
     margin-left:3rem;
     width:40rem;
     display:inline-flex;

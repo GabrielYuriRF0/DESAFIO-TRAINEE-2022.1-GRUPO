@@ -8,27 +8,29 @@ function Main() {
   return (
     <>
       <Home></Home>
-      <div className="container">
-        <Slide color1="green" color2="gray" color3="gray" />
-        <div className="content">
-          <div className="textos">
-            <div className="title">
-              <p>
-                a melhor forma de <br />
-                organizar suas atividades.
-              </p>
+      <div className="view">
+        <div className="container">
+          <Slide color1="green" color2="gray" color3="gray" />
+          <div className="content">
+            <div className="textos">
+              <div className="title">
+                <p>
+                  a melhor forma de <br />
+                  organizar suas atividades.
+                </p>
+              </div>
+              <div className="subtitle">
+                <p>Simples, prático e eficiente. </p>
+              </div>
             </div>
-            <div className="subtitle">
-              <p>Simples, prático e eficiente. </p>
+            <div className="buttons">
+              <Button text="criar conta" classColor="green" />
+              <Button text="entrar" classColor="blue" />
             </div>
           </div>
-          <div className="buttons">
-            <Button text="criar conta" classColor="green" />
-            <Button text="entrar" classColor="blue" />
+          <div className="image">
+            <img src={imageHome} alt="logo"></img>
           </div>
-        </div>
-        <div className="image">
-          <img src={imageHome} alt="logo"></img>
         </div>
       </div>
     </>

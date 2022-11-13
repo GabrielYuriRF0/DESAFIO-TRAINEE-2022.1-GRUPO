@@ -1,0 +1,87 @@
+.container-sobre{
+    background:var(--fundo);
+}
+
+.container-sobre .sobre, .container-sobre .texto-principal {
+    margin-left:5rem
+}
+
+.container-sobre .texto-principal p{
+    font-family: 'Poppins', sans-serif;
+    font-weight:500;
+    font-size:2rem;
+    color:var(--fonte);
+}
+
+.container-sobre .sobre{
+    margin-top:2rem
+}
+
+.container-sobre .sobre p{
+    font-family: 'Poppins', sans-serif;
+    font-weight:900;
+    font-size:2.5rem;
+    color:var(--verde);
+}
+
+.container-sobre .sobre .sobre-box{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    padding:3rem
+}
+
+.container-sobre .sobre .sobre-box .box{
+    padding:4rem;
+    width:32rem;
+    height:30rem;
+    background:linear-gradient(180deg, rgba(83, 134, 250, 0.17) 0%, rgba(251, 140,172, 0.17) 100%);
+    border-radius:5rem
+}
+
+.container-sobre .sobre .sobre-box  .box .title{
+    width:15rem;
+    height:8rem
+}
+
+.container-sobre .sobre .sobre-box  .box .title p{
+    font-family: 'Poppins', sans-serif;
+    font-weight:900;
+    font-size:2.5rem;
+    color:var(--azul);
+}
+
+.container-sobre .sobre .sobre-box  .box .title img{
+    position:absolute;
+    top:16rem;
+}
+
+.container-sobre .sobre .sobre-box  .atividades .title img{
+    width:25rem;
+    height:25rem;
+    left:26rem
+}
+
+.container-sobre .sobre .sobre-box  .tarefas .title img{
+    width:23rem;
+    height:23rem;
+    left:70rem
+}
+
+.container-sobre .sobre .sobre-box  .perfil .title img{
+    width:23rem;
+    height:20rem;
+    left:115rem;
+    top:18rem
+}
+
+.container-sobre .sobre .sobre-box  .box .descricao p{
+    font-family: 'Poppins', sans-serif;
+    font-weight:500;
+    font-size:2rem;
+    color:var(--fonte);
+    margin-top:2rem;
+    line-height:3rem;
+    width: 23.7rem;
+    height: 15rem;
+}

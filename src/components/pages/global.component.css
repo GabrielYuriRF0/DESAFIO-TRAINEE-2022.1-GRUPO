@@ -2,15 +2,22 @@
 
 *{
     margin:0;
-    padding:.6rem;
+    padding:0;
     border:0;
     text-decoration:none;
     box-sizing:border-box;
     font-size:62.5%;
-    background:var(--fundo);
+    overflow: hidden;
 
     --fundo: #F3EFF0;
     --fonte:#0F1120;
     --verde:#45E8C3;
     --azul:#5386FA;
+}
+
+.view{
+    background:var(--fundo);
+    width:100vw;
+    height:100vh;
+    padding:2.5rem
 }

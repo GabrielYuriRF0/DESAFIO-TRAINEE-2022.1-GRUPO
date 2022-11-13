@@ -1,3 +1,7 @@
+.home{
+    background:var(--fundo);
+    padding:2.5rem
+}
 .home .menu, .home .menu .logo, c{
     display:flex;
     align-items:center;
@@ -8,7 +12,9 @@
    font-size:4rem;
    color:var(--azul);
    font-family: 'Titan One', cursive;
-   font-weight:900
+   font-weight:900;
+
+   margin-left:2rem
 }
 
 .home .menu .menu-opcoes button{
