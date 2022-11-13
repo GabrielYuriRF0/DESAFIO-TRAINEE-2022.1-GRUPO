@@ -1,13 +1,13 @@
 import HomeForm from "../pages/HomeForm";
-import BoxLogin from "../details/BoxLogin";
-import "./login.component.css";
+import BoxCadastro from "../details/box-cadastro";
+import "./cadastro.component.css";
 
 function Sobre() {
   return (
     <>
       <HomeForm></HomeForm>
       <div className="view">
-        <BoxLogin />
+        <BoxCadastro />
       </div>
     </>
   );
