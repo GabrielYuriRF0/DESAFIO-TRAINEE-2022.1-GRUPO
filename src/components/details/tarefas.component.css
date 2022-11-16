@@ -1,0 +1,54 @@
+.concluir{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+
+    background-color:#DBDADA;
+
+    height:4rem;
+    width:100%;
+    padding:1rem;
+    border-radius:2rem;
+    margin-top:1rem
+}
+
+.concluir .botoes{
+    display:inline-flex;
+    align-items:center;
+    justify-content:space-between;
+    width:6rem;
+    padding:.5rem;
+    margin-top:-1rem
+}
+
+.concluir .concluir-descricao p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.5rem;
+    line-height: 2.2rem;
+}
+
+.checkbox {
+    display: none;
+  }
+  .checkbox + label:before {
+    content: '';
+    display: inline-block;
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius:.5rem;
+    margin-right: 5px;
+    border: 2px solid #FB8CAC;
+    margin-bottom: -2px;
+  }
+  .checkbox:checked + label {
+    color: var();
+  }
+  .checkbox:checked + label:before {
+    background: gray;
+  }
+
+.botoes button{
+  background:none;
+}

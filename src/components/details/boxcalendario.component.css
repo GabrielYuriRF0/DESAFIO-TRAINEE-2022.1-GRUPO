@@ -1,0 +1,50 @@
+.verde{
+    background-color:#45E8C3
+}
+
+.roxo{
+    background-color:#6D51B5;
+
+}
+
+.laranja{
+    background-color:#F68D88
+}
+
+.verde, .roxo, .laranja{
+    width:29.3rem;
+    height:13.9rem;
+    border-radius:2rem;
+
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 3rem;
+}
+
+.texto{
+    width:15rem;
+}
+
+.titulo, .descricao{
+    display:flex;
+    align-items:center;
+    justify-content:center
+}
+
+.titulo p{
+    font-family: 'Poppins';
+    font-weight:900;
+    font-size:2.5rem;
+    line-height: 3.5rem;
+    color:#FFFFFF
+}
+
+.descricao p{
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 1.5rem;
+    line-height: 2.2rem;
+    text-align: justify;
+    color:#FFFFFF
+}

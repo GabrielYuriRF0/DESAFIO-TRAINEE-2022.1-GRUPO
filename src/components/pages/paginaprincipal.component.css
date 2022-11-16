@@ -1,0 +1,32 @@
+.menu-usuario{
+    position: absolute;
+    width: 110rem;
+    height: 10rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    left:15rem
+}
+
+.logo-nome p{
+    font-size:4rem;
+        color:var(--azul);
+        font-family: 'Titan One', cursive;
+        font-weight:900;
+     
+        margin-left:2rem
+}
+
+.nome-usuario{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+
+.nome-usuario p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 2rem;
+    line-height: 3rem;
+}

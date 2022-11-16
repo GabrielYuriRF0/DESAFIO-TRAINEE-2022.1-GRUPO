@@ -1,0 +1,100 @@
+
+.box button img{
+    margin-top:-1.2rem
+}
+
+.box-input input, .box-input button{
+    
+    margin-bottom:.5rem;
+    margin-top:1rem
+}
+
+.box{
+    background-color: #ECECEC;
+    border-radius:2rem;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%, -50%);
+    box-shadow: 1px 1px 0px 2px #DBDBDB;
+
+    display:column;
+    align-items:center;
+    justify-content:center;
+    padding:5rem;
+    width:67.7rem;
+    height:55rem
+}
+
+.box .titulo p{
+    font-family: 'Titan One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 4rem;
+    line-height: 4.6rem;
+    color: var(--azul);
+
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+
+ .box .forms .box-formulario{
+    display:column;
+    align-items:center;
+    justify-content:center;
+}
+
+.box .forms .botoes{
+    display:flex;
+    align-items:center;
+    justify-content:space-around;
+}
+
+.box .forms .botoes p{
+    font-family: 'Poppins', sans-serif;
+    font-weight:400;
+    font-size:1.5rem;
+    line-height: 3.5rem;
+    color: var(--fonte);
+}
+
+.box-formulario .botoes{
+    margin-top:2rem;
+    display:flex;
+    justify-content:space-between
+}
+
+.two-input{
+    display:flex;
+    align-items:center;
+    justify-content:space-between
+}
+
+.two-input .input-button input{
+    width:23rem !important
+}
+
+.input-button input{
+    width:100% !important
+}
+
+.checkbox {
+    display: none;
+  }
+  .checkbox + label:before {
+    content: '';
+    display: inline-block;
+    width: 2rem;
+    height: 2rem;
+    border-radius:50%;
+    margin-right: 5px;
+    border: 2px solid gray;
+    margin-bottom: -2px;
+  }
+  .checkbox:checked + label {
+    color: var();
+  }
+  .checkbox:checked + label:before {
+    background: gray;
+  }

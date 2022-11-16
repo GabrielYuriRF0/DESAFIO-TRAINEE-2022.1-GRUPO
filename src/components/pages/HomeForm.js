@@ -1,5 +1,6 @@
 import "./home.component.css";
 import logo from "../assets/logo.png";
+import sair from "../assets/sair.png";
 import "./global.component.css";
 import "./home.component.css";
 
@@ -12,9 +13,7 @@ function Home() {
           <h1>NoteX</h1>
         </div>
         <div className="menu-opcoes">
-          <button>home</button>
-          <button>sobre</button>
-          <button>fale conosco</button>
+          <img src={sair} alt="logo"></img>
         </div>
       </div>
       <div className="footer">

@@ -1,0 +1,36 @@
+.conteudo{
+    background:var(--fundo);
+    display:grid;
+    grid-template-columns:40% 60%;
+
+    grid-template-areas: 
+    'textos imagem'
+}
+
+.conteudo .questionario{
+    position:absolute;
+    left:25rem;
+    grid-area:textos;
+    width:38.8rem;
+    height:40rem
+
+}
+
+.conteudo .questionario p{
+    font-family: 'Poppins', sans-serif;
+    font-weight:500;
+    font-size:2rem;
+    line-height: 3.5rem;
+    margin-bottom:3rem
+}
+
+.conteudo .imagem{
+    grid-area:imagem;
+    position:absolute;
+    right: 3rem
+}
+
+.conteudo .imagem img{
+    width:55rem;
+    height:45rem
+}

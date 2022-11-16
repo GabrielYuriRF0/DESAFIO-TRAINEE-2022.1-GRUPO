@@ -1,3 +1,7 @@
+.home{
+    background:var(--fundo);
+    padding:2.5rem
+}
 .home .menu, .home .menu .logo, c{
     display:flex;
     align-items:center;
@@ -8,7 +12,9 @@
    font-size:4rem;
    color:var(--azul);
    font-family: 'Titan One', cursive;
-   font-weight:900
+   font-weight:900;
+
+   margin-left:2rem
 }
 
 .home .menu .menu-opcoes button{
@@ -18,23 +24,13 @@
     color:var(--fonte);
     display:inline-flex;
     justify-content:space-between;
-    padding:1.5rem
+    padding:1.5rem;
+    cursor:pointer
 
 }
 
-.home .slide{
-    position:absolute;
-    top:50%;
-}
-
-.home .slide .button{
-    width:2rem;
-    height:2rem;
-    border-radius:50%;
-    margin-bottom:.5rem;
-    margin-top:.5rem;
-    background-color: var(--verde);
-
+.home .menu .menu-opcoes button:hover{
+    border-bottom: 2px solid black
 }
 
 .home .footer{

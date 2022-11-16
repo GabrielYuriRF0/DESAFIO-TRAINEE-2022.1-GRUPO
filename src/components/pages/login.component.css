@@ -1,0 +1,69 @@
+
+
+.box-input button img{
+    margin-top:-1.2rem
+}
+
+.box-input input, .box-input button{
+    padding:2rem;
+    margin-bottom:2rem;
+    margin-top:1rem
+}
+
+.box-login{
+    background-color: #ECECEC;
+    border-radius:2rem;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%, -50%);
+    box-shadow: 1px 1px 0px 2px #DBDBDB;
+
+    display:column;
+    align-items:center;
+    justify-content:center;
+    padding:5rem;
+    width:53.4rem;
+    height:51.7rem
+}
+
+.box-login .titulo p{
+    font-family: 'Titan One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 4rem;
+    line-height: 4.6rem;
+    color: var(--azul);
+
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+
+ .box-login .forms .box-formulario{
+    display:column;
+    align-items:center;
+    justify-content:center;
+
+    margin-top:4rem
+}
+
+.box-login .forms .botoes{
+    display:flex;
+    align-items:center;
+    justify-content:space-around;
+}
+
+.box-login .forms .botoes p{
+    font-family: 'Poppins', sans-serif;
+    font-weight:400;
+    font-size:1.5rem;
+    line-height: 3.5rem;
+    color: var(--fonte);
+}
+
+.box-formulario .botoes{
+    margin-top:3rem;
+    display:flex;
+    justify-content:space-between
+}

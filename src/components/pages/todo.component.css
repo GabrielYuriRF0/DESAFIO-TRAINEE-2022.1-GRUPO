@@ -1,0 +1,61 @@
+.content-todo{
+    width:100rem;
+    height:50rem;
+
+    position:absolute;
+    top:10rem;
+    left:20rem;
+    padding:2rem;
+
+}
+
+.principais{
+    margin-bottom:2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width:100%
+}
+
+.atividades{
+   
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+
+    width:100%;
+    height:30rem;
+    border-radius:2rem;
+    padding:2rem;
+    background-color:var(--azul)
+}
+
+.atividades .pendentes, .atividades .concluidas{
+    background-color:#F4F2F2;
+    height:25rem;
+    border-radius:2rem;
+    padding:1.5rem
+}
+
+.atividades .pendentes{
+    width:62.8rem
+}
+
+.pendentes .titulo{
+    display:inline-flex;
+    align-items:center;
+    justify-content:space-between;
+    width:100%
+}
+
+.pendentes .titulo p, .concluidas .titulo p{
+    font-size:2rem;
+    color:var(--fonte);
+    font-family: 'Poppins', sans-serif;
+    font-weight:900;
+    color: rgba(15, 17, 32, 0.9);
+}
+
+.atividades .concluidas{
+    width:24.4rem
+}
