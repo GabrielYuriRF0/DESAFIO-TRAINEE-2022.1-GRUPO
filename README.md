@@ -4,9 +4,9 @@
 ~~~
 git clone https://github.com/GabrielYuriRF0/DESAFIO-TRAINEE-2022.1-GRUPO.git
 ~~~
-2. instalação do react-router-dom
+2. instalação das dependências
 ~~~
-npm install react-router-dom
+npm install 
 ~~~
 3. inicializando o servidor local
 ~~~
