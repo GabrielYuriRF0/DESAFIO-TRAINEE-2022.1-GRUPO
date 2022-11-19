@@ -19,4 +19,4 @@ LoginSchema.pre('save', async function (next) {
     return next();
 });
 
-module.exports = mongoose.model('Login', LoginSchema,'login');
+module.exports = mongoose.model('Login', LoginSchema);
