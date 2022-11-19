@@ -36,6 +36,7 @@
 .home .footer{
     position:fixed;
     left:4rem;
+    top:59rem;
     bottom:0;
     width:100%;
 
@@ -43,5 +44,12 @@
     font-weight:300;
     font-size:1.8rem;
 }
+
+.menu-opcoes {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 
 

@@ -1,29 +1,41 @@
-.button button{
-    font-size:2rem;
+.button a{
     cursor:pointer;
-
-    width:18rem;
-    height:4.1rem;
-
-    border-radius:10rem;
-    color:var(--fundo);
+    font-family: 'Poppins', sans-serif;
 
     transition:filter .2s;
 
 }
 
-.button button:hover{
+.button a:hover{
     filter:brightness(1.2);
 }
 
-.buttons .green{
-    background-color:var(--verde)
+.button .green, .button .blue, .button .pink, .menu-opcoes .button a, .button .gray{
+    font-size:2rem;
+    padding: .8em 2em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius:10rem;
 }
 
-.buttons .blue{
-    background-color:var(--azul)
+.button .green{
+    background-color:var(--verde);
+    color:var(--fundo);
+    
+}
+
+.button .blue{
+    background-color:var(--azul);
+    color:var(--fundo);
 }
 
 .button .pink{
-    background-color:#FB8CAC
+    background-color:#FB8CAC;
+    color:var(--fundo);
+}
+
+.menu-opcoes .button a{
+    color: black !important;
 }

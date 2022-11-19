@@ -35,7 +35,7 @@ function ToDo() {
             descricao="Atividade de português"
           />
         </div>
-        <div className="atividades">
+        <div className="atividades-todo">
           <div className="pendentes">
             <div className="titulo">
               <p>atividades pendentes</p>

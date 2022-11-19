@@ -14,7 +14,7 @@ function App() {
       <Routes>
         <Route exact path="/" element={<Main />} />
         <Route exact path="/sobre" element={<Sobre />} />
-        <Route exact path="/fale-conosco" element={<FaleConosco />} />
+        <Route exact path="/faleconosco" element={<FaleConosco />} />
         <Route exact path="/login" element={<Login />} />
         <Route exact path="/cadastro" element={<Cadastro />} />
         <Route exact path="/todolist" element={<ToDo />} />

@@ -9,7 +9,7 @@ import Button from "../details/Buttons";
 function BoxCadastro() {
   return (
     <>
-      <div className="box">
+      <div className="box-cadastro">
         <div className="titulo">
           <p>cadastro</p>
         </div>
@@ -26,7 +26,7 @@ function BoxCadastro() {
                 <Input texto="senha" imagem={senha} classInput="texto" />
               </div>
               <div className="botoes">
-                <Button text="cadastrar" classColor="pink" />
+                <Button text="cadastrar" classColor="pink" to="/todolist" />
                 <input id="checkbox1" class="checkbox" type="checkbox" />
                 <label for="checkbox1"></label>
                 <p>Aceito os termos de serviço e privacidade</p>

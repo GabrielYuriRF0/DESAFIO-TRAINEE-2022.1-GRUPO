@@ -11,6 +11,12 @@
     transform:translate(-50%,-50%)
 }
 
+.menu-opcoes {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .menu-conteudo{
     display: inline-grid;
     align-content: space-between;
@@ -20,13 +26,19 @@
     
 }
 
-.ferramentas button{
+.ferramentas a{
     margin-top:1.5rem;
     margin-bottom:1.5rem;
     background:none
 }
 
-.sair button{
+.ferramentas .button{
+    display:flex;
+    align-items:center;
+    justify-content:center
+}
+
+.sair a{
     background:none
 }
 

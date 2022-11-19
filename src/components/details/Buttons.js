@@ -1,9 +1,10 @@
 import "./buttons.component.css";
+import {Link} from 'react-router-dom'
 
-function Button({ text, classColor }) {
+function Button({ text, classColor, to }) {
   return (
     <div className="button">
-      <button className={classColor}>{text}</button>
+      <Link className={classColor} to={to}>{text}</Link>
     </div>
   );
 }

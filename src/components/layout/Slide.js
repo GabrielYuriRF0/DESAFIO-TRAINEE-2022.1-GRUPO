@@ -1,16 +1,17 @@
 import "./slide.component.css";
+import Button from "../details/Buttons";
 
 function Slide({ color1, color2, color3 }) {
   return (
     <div className="slide">
       <div className="button-slide">
-        <button className={color1}></button>
+        <Button to="/" classColor={color1} />
       </div>
       <div className="button-slide">
-        <button className={color2}></button>
+        <Button to="/sobre" classColor={color2} />
       </div>
       <div className="button-slide">
-        <button className={color3}></button>
+        <Button to="/faleconosco" classColor={color3} />
       </div>
     </div>
   );

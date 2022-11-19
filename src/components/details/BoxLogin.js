@@ -22,7 +22,7 @@ function BoxLogin() {
                 <Input texto="senha" imagem={senha} classInput="texto" />
               </div>
               <div className="botoes">
-                <Button text="entrar" classColor="pink" />
+                <Button text="entrar" classColor="pink" to="/todolist" />
                 <p>Esqueci a senha</p>
               </div>
             </div>

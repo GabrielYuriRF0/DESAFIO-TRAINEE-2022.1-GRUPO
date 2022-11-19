@@ -17,7 +17,7 @@
     width:100%
 }
 
-.atividades{
+.atividades-todo{
    
     display:flex;
     align-items:center;
@@ -30,14 +30,14 @@
     background-color:var(--azul)
 }
 
-.atividades .pendentes, .atividades .concluidas{
+.atividades-todo .pendentes, .atividades-todo .concluidas{
     background-color:#F4F2F2;
     height:25rem;
     border-radius:2rem;
     padding:1.5rem
 }
 
-.atividades .pendentes{
+.atividades-todo .pendentes{
     width:62.8rem
 }
 
@@ -56,6 +56,6 @@
     color: rgba(15, 17, 32, 0.9);
 }
 
-.atividades .concluidas{
+.atividades-todo .concluidas{
     width:24.4rem
 }

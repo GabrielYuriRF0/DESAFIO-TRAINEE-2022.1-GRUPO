@@ -1,4 +1,4 @@
-.box{
+.box-cadastro{
     background-color: #ECECEC;
     border-radius:2rem;
     position:absolute;
@@ -13,7 +13,7 @@
     padding:5rem
 }
 
-.box .titulo p{
+.box-cadastro .titulo p{
     font-family: 'Titan One';
     font-style: normal;
     font-weight: 400;
@@ -26,7 +26,7 @@
     justify-content:center;
 }
 
- .box .forms .box-formulario{
+ .box-cadastro .forms .box-formulario{
     display:column;
     align-items:center;
     justify-content:center;
@@ -34,13 +34,13 @@
     margin-top:4rem
 }
 
-.box .forms .botoes{
+.box-cadastro .forms .botoes{
     display:flex;
     align-items:center;
     justify-content:space-around;
 }
 
-.box .forms .botoes p{
+.box-cadastro .forms .botoes p{
     font-family: 'Poppins', sans-serif;
     font-weight:400;
     font-size:1.5rem;

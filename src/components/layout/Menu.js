@@ -4,6 +4,7 @@ import principal from "../assets/principal.png";
 import calendario from "../assets/calendario.png";
 import configuracoes from "../assets/configuracoes.png";
 import sair from "../assets/sair-branco.png";
+import Button from "../details/Buttons";
 
 function Menu() {
   return (
@@ -13,20 +14,15 @@ function Menu() {
           <img src={logo} alt="logo"></img>
         </div>
         <div className="ferramentas">
-          <button>
-            <img src={principal} alt="logo" />
-          </button>
-          <button>
-            <img src={calendario} alt="logo" />
-          </button>
-          <button>
-            <img src={configuracoes} alt="logo" />
-          </button>
+          <Button to="/todolist" text={<img src={principal} alt="logo" />} />
+          <Button to="/calendario" text={<img src={calendario} alt="logo" />} />
+          <Button
+            to="/configuracoes"
+            text={<img src={configuracoes} alt="logo" />}
+          />
         </div>
         <div className="sair">
-          <button>
-            <img src={sair} alt="logo"></img>
-          </button>
+          <Button to="/" text={<img src={sair} alt="logo"></img>} />
         </div>
       </div>
     </div>

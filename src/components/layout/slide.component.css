@@ -3,9 +3,8 @@
     top:50%;
 }
 
-.slide .button-slide button{
-    width:2rem;
-    height:2rem;
+.slide .button-slide a{
+    padding: .5em .5em;
     border-radius:50%;
     margin-bottom:.5rem;
     margin-top:.5rem;

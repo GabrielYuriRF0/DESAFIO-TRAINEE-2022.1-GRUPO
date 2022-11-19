@@ -24,8 +24,8 @@ function Main() {
               </div>
             </div>
             <div className="buttons">
-              <Button text="criar conta" classColor="green" />
-              <Button text="entrar" classColor="blue" />
+              <Button text="criar conta" classColor="green" to='/cadastro' />
+              <Button text="entrar" classColor="blue" to='/login' S/>
             </div>
           </div>
           <div className="image">

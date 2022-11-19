@@ -1,3 +1,4 @@
+import React, { Component } from "react";
 import Home from "../pages/Home";
 import Slide from "../layout/Slide";
 import Atividades from "../assets/atividade.png";
