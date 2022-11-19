@@ -1,6 +1,7 @@
 const express = require('express');
 const rota = express.Router();
 const Login = require('../model/login');
+const auth = require('../middlewares/auth');
 const bcrypt = require('bcrypt');
 const jwt = require('jsonwebtoken');
 const config = require('../configs/config');
@@ -58,4 +59,26 @@ rota.post('/auth', async (req, res) => {
     }
 });
 
+//atualização de usuários
+rota.put('/editar', async (req, res) =>{
+    const {email, nome, idade, senha} = req.body;
+
+    if (!email || !senha) return res.send({error: 'Dados insuficientes!'});
+
+    try {
+        const login = await Login.findOne({email}).select('+senha');
+        if (!login) return res.status(400).send({error: 'Usuário não existe!'});
+
+        const senha_correta = await bcrypt.compare(senha, login.senha);
+
+        if (!senha_correta) return res.status(401).send({error: 'Erro ao autenticar usuário!'});
+
+        await Login.findOneAndUpdate({email}, {nome, idade});
+
+        return res.status(200).send({message: 'Usuário atualizado com sucesso!'});
+    }
+    catch (err) {
+        return res.status(404).send({error: 'Erro ao atualizar usuário!'});
+    }
+});
 module.exports = rota;
