@@ -24,7 +24,7 @@ controller.listar = async function (req, res) {
       try {
          // find(), sem parâmetros, retorna todos
          // O parâmetro de populate() é o *ATRIBUTO* relacionado
-         const lista = await Tarefa.find().populate('fornecedor')
+         const lista = await Tarefa.find().populate('tarefa')
          res.send(lista) // HTTP 200 implícito
       }
       catch (erro) {

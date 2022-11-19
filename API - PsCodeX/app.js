@@ -27,9 +27,11 @@ app.use(bodyParser.json());
 
 const indexRota = require('./Rotas/index');
 const userRota = require('./Rotas/users');
+const tarefaRota = require('./Rotas/tarefa');
 
 app.use('/', indexRota);
 app.use('/users', userRota);
+app.use('/tarefa', tarefaRota);
 
 app.listen(3000);
 
