@@ -1,8 +1,10 @@
 const mongoose = require('mongoose');
 const Schema = mongoose.Schema;
+const ObjectId = Schema.ObjectId;
 const bcrypt = require('bcrypt');
 
 const LoginSchema = new Schema({
+    idn: {ObjectId},
     email: {type: String, required: true, unique: true, lowercase: true},
     nome: {type: String, required: true},
     idade: {type: Number, required: true},
