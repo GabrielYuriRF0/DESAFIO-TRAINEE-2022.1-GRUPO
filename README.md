@@ -70,6 +70,10 @@ npm install bcrypt
 ~~~
 npm install axios
 ~~~
+8. inicializando o servidor local do back-end
+~~~
+npm start
+~~~
 
 ## 📸 Imagens
 
