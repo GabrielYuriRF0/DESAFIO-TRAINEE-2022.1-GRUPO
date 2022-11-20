@@ -6,21 +6,21 @@ const config = () => {
 
         case 'dev':
             return {
-                bd_url: 'mongodb+srv://adm_user:Fzgnp4cXPZuwruUQ@bd-projectcodex.qxkscws.mongodb.net/?retryWrites=true&w=majority',
+                bd_url: 'mongodb+srv://adm_user:Fzgnp4cXPZuwruUQ@bd-projectcodex.qxkscws.mongodb.net/BD-ProjectCodeX?retryWrites=true&w=majority',
                 jwt_verf: 'APurjNLd2ZBenU1M',
                 jwt_expires_in: '7d'
             }
 
         case 'hml':
             return {
-                bd_url: 'mongodb+srv://adm_user:Fzgnp4cXPZuwruUQ@bd-projectcodex.qxkscws.mongodb.net/?retryWrites=true&w=majority',
+                bd_url: 'mongodb+srv://adm_user:Fzgnp4cXPZuwruUQ@bd-projectcodex.qxkscws.mongodb.net/BD-ProjectCodeX?retryWrites=true&w=majority',
                 jwt_verf: 'APurjNLd2ZBenU1M',
                 jwt_expires_in: '7d'
             }
 
         case 'prod':
             return {
-                bd_url: 'mongodb+srv://adm_user:Fzgnp4cXPZuwruUQ@bd-projectcodex.qxkscws.mongodb.net/?retryWrites=true&w=majority',
+                bd_url: 'mongodb+srv://adm_user:Fzgnp4cXPZuwruUQ@bd-projectcodex.qxkscws.mongodb.net/BD-ProjectCodeX?retryWrites=true&w=majority',
                 jwt_verf: 'APurjNLd2ZBenU1M',
                 jwt_expires_in: '7d'
             }
