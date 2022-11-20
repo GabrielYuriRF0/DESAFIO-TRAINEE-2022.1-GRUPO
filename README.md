@@ -5,6 +5,7 @@
 ## 🧑‍💻 Equipe
 - Gabriel Yuri Ramalho Ferreira.
 - Daniele de Oliveira Sousa
+- Filipe Luiz Lino de Azevedo
 
 ## ✏️ Descrição
 desenvolvimento de um sistema web de uma ToDo List relacionado a uma aplicação que tem como objetivo organizar ações do dia-a-dia do usuário a serem feitas.
