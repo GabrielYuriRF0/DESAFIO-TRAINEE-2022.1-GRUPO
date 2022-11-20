@@ -33,6 +33,6 @@ app.use('/', indexRota);
 app.use('/users', userRota);
 app.use('/tarefa', tarefaRota);
 
-app.listen(3000);
+app.listen(3001);
 
 module.exports = app;
