@@ -1,0 +1,156 @@
+.modal {
+  font-size: 12px;
+}
+.modal > .header {
+  width: 100%;
+  text-align: center;
+  padding: 1rem;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 3rem;
+  line-height: 4.5rem;
+  /* identical to box height */
+
+
+  color: #5386FA;
+}
+.modal > .content {
+  width: 100%;
+  padding: 10px 5px;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal > .content input{
+    width: 40rem;
+    height: 4rem;
+    margin-bottom: 1rem;
+    border-radius: 2rem;
+    padding: 2rem;
+    margin-top: 2rem;
+    font-size: 1.5rem;
+    color: rgba(15, 17, 32, 0.9); 
+}
+
+.modal > .content p{
+  font-size:2rem
+}
+
+.modal > .actions {
+  width: 65%;
+    padding: 10px 5px;
+    margin: auto;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.modal > .actions button{
+    width: 12rem;
+    height: 3rem;
+    border-radius: 2rem;
+    font-size: 1.3rem;
+    color: var(--fundo);
+}
+
+.modal > .actions .enviar{
+  background:var(--verde)
+}
+
+.modal > .actions .enviar{
+  background:var(--verde)
+}
+
+.modal > .actions .cancelar{
+  background:var(--azul)
+}
+
+.modal > .close {
+  cursor: pointer;
+  position: absolute;
+  display: block;
+  padding: 2px 5px;
+  line-height: 20px;
+  right: 10px;
+  font-size: 24px;
+  background: #ffffff;
+  border-radius: 18px;
+  border: 1px solid #cfcece;
+}
+
+.popup-content {
+  margin: auto;
+  background: #F4F2F2;
+  border: 1px solid #000000;
+  border-radius: 20px;
+  width: 50%;
+  height:50%;
+  padding: 5px;
+}
+.popup-arrow {
+  color: rgb(255, 255, 255);
+}
+[role='tooltip'].popup-content {
+  width: 200px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 0px 3px;
+}
+
+.popup-overlay {
+  background: rgba(0, 0, 0, 0.5);
+}
+[data-popup='tooltip'].popup-overlay {
+  background: transparent;
+}
+
+.my-popup-content {
+  margin: auto;
+  background: rgb(255, 255, 255);
+  width: 50%;
+  padding: 5px;
+}
+.my-popup-arrow {
+  color: rgb(255, 255, 255);
+}
+[role='tooltip'].my-popup-content {
+  width: 200px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 0px 3px;
+}
+
+.my-popup-overlay {
+  background: rgba(0, 0, 0, 0.5);
+}
+[data-popup='tooltip'].my-popup-overlay {
+  background: transparent;
+}
+
+
+html[data-theme='dark'] .popup-content {
+  background-color: rgb(41, 45, 62);
+  color: #fff;
+  border: 1px solid #9a9595;
+}
+
+html[data-theme='light'] .popup-content {
+  background-color: #fff;
+  color: #000;
+  border: 1px solid #d7d7d7;
+}
+
+html[data-theme='dark'] .popup-arrow > svg {
+  color: rgb(41, 45, 62);
+  stroke-width: 2px;
+  stroke: #9a9595;
+  stroke-dasharray: 30px;
+  stroke-dashoffset: -54px;
+}
+
+html[data-theme='light'] .popup-arrow > svg {
+  color: #fff;
+  stroke-width: 2px;
+  stroke: #d7d7d7;
+  stroke-dasharray: 30px;
+  stroke-dashoffset: -54px;
+}

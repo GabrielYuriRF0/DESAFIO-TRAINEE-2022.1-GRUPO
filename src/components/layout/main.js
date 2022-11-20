@@ -11,7 +11,7 @@ function Main() {
       <div className="view">
         <div className="container">
           <Slide color1="green" color2="gray" color3="gray" />
-          <div className="content">
+          <div className="content-main">
             <div className="textos">
               <div className="title">
                 <p>
@@ -24,8 +24,8 @@ function Main() {
               </div>
             </div>
             <div className="buttons">
-              <Button text="criar conta" classColor="green" to='/cadastro' />
-              <Button text="entrar" classColor="blue" to='/login' S/>
+              <Button text="criar conta" classColor="green" to="/cadastro" />
+              <Button text="entrar" classColor="blue" to="/login" S />
             </div>
           </div>
           <div className="image">

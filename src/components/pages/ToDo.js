@@ -6,6 +6,7 @@ import verde from "../assets/calendario1.png";
 import roxo from "../assets/calendairo2.png";
 import laranja from "../assets/calendario3.png";
 import adicionar from "../assets/adicionar.png";
+import Pop from "../layout/Pop";
 
 import "./todo.component.css";
 import "./global.component.css";
@@ -39,9 +40,14 @@ function ToDo() {
           <div className="pendentes">
             <div className="titulo">
               <p>atividades pendentes</p>
-              <button>
-                <img src={adicionar} alt="adicionar" />
-              </button>
+              <Pop
+                imagem={<img src={adicionar} alt="adicionar" />}
+                titulo="Adicionar"
+                content={<input type="text" placeholder="Atividade" />}
+                content2={<input type="date" />}
+                enviar="enviar"
+                cancelar="cancelar"
+              />
             </div>
             <div className="atividades-pendentes">
               <Tarefas descricao="Atividade de IC" />
