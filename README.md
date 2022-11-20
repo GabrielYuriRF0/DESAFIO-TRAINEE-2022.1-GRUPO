@@ -1,4 +1,21 @@
-# Como Utilizar
+<p align="center">
+  <img  src="https://user-images.githubusercontent.com/62821027/202878856-22915aec-c3bb-4391-88d3-8da54aa9b1db.png">
+</p>
+
+## ✏️ Descrição
+desenvolvimento de um sistema web de uma ToDo List relacionado a uma aplicação que tem como objetivo organizar ações do dia-a-dia do usuário a serem feitas.
+
+## 💻 Funções
+ - [x] cadastrar um perfil (com nome completo, gênero, idade, email e senha)
+ - [x] entrar no meu perfil
+ - [x] editar perfil
+ - [x] adicionar tarefas que tenho que fazer no dia atual ou um dia futuro
+ - [x] editar tarefas que tenho que fazer no dia atual ou um dia futuro
+ - [x] excluir tarefas que tenho que fazer no dia atual ou um dia futuro
+ - [x] marcar como concluídas tarefas do dia atual ou um dia futuro
+ - [x] visualizar tarefas do dia atual e dias passados e futuros
+
+## 📚 Como utilizar?
 
 1. criando uma cópia do repositório 
 ~~~
@@ -12,8 +29,21 @@ npm install
 ~~~
 npm install react-router-dom
 ~~~
-4. inicializando o servidor local
+4. istalação do react popup
+~~~
+npm install reactjs-popup --save
+~~~
+5. inicializando o servidor local
 ~~~
 npm start
 ~~~
+
+## 📸 Imagens
+
+![tela principal](https://user-images.githubusercontent.com/62821027/202879052-d2384b3c-945a-402e-bc1d-12b78440955a.png)
+![tela principal - sobre](https://user-images.githubusercontent.com/62821027/202879079-bbfb5c96-e78c-46db-8f85-0ca2e215232f.png)
+![tela principal - fale conosco](https://user-images.githubusercontent.com/62821027/202879083-39b33656-2917-48d5-a198-1cf319b4d590.png)
+
+
+
  
