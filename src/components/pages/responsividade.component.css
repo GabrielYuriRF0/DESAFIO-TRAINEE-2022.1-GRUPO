@@ -1,0 +1,130 @@
+@media(min-width:300px){
+    .home .menu .logo h1{
+        font-size:1.5rem;
+        margin-left:1.5rem
+    }
+
+    .button .green, .button .blue, .button .pink, .menu-opcoes .button a, .button .gray {
+        font-size: 1rem;
+    }
+
+    .image img {
+        top: 35rem;
+        right: 1rem;
+        width: 35rem;
+    }
+
+    .content-main .title p {
+        font-size: 2.5rem;
+    }
+
+    .content-main .subtitle p {
+        font-size: 2.5rem;
+    }
+
+    .content-main {
+        top: 15rem;
+    }
+
+    .buttons {
+        width: 20rem;
+    }
+
+    .container-sobre .sobre .sobre-box .box {
+        width: 25rem; 
+    }
+
+    .conteudo .imagem img {
+        display:none
+    }
+
+    .conteudo .questionario {
+        left: 5rem;
+        width: 25rem;
+    }
+
+    .box-cadastro, .box-login {
+       
+        width: 30rem;
+    }
+
+}
+
+@media(min-width:900px){
+    .home .menu .logo h1{
+        font-size:3.5rem;
+        margin-left:1.5rem
+    }
+
+    .button .green, .button .blue, .button .pink, .menu-opcoes .button a, .button .gray {
+        font-size: 2rem;
+    }
+
+    .image img {
+        top: 12rem;
+        right: 6rem;
+        width: 60rem;
+        height: 50rem;
+    }
+
+    .content-main .title p {
+        
+        font-size: 3.3rem;
+    }
+
+    .content-main .subtitle p {
+        
+        font-size: 3.2rem;
+    }
+
+    .content-main {
+        left: 15rem;
+        top: 23rem;
+    }
+
+    .buttons {
+        width: 40rem;
+    }
+
+    .view {
+        width: 100vw; 
+        height: 100vh;
+    }
+
+    .container-sobre .sobre .sobre-box {
+        display: flex;
+    }
+
+    .container-sobre .sobre .sobre-box .box {
+        width: 32rem; 
+    }
+
+    .conteudo .imagem img {
+        display:inline
+    }
+
+    .conteudo .questionario{
+        left:15rem;
+        width:38.8rem;
+    
+    }
+
+    .box-cadastro {
+       
+        width:67.7rem;
+    }
+
+    .box-login{
+        width:53.4rem;
+    }
+    
+}
+
+@media(min-width:1200px){
+    .home .menu .logo h1{
+        font-size:4rem;
+        margin-left:2rem
+    }
+
+}
+

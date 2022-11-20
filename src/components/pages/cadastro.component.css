@@ -22,7 +22,6 @@
     align-items:center;
     justify-content:center;
     padding:2.5rem;
-    width:67.7rem;
     height:55rem
 }
 
@@ -45,13 +44,13 @@
     justify-content:center;
 }
 
-.box-cadastro .forms .botoes{
+.box-cadastro .forms .botoes-cadastro{
     display:flex;
     align-items:center;
     justify-content:space-around;
 }
 
-.box-cadastro .forms .botoes p{
+.box-cadastro .forms .botoes-cadastro p{
     font-family: 'Poppins', sans-serif;
     font-weight:400;
     font-size:1.5rem;
@@ -59,7 +58,7 @@
     color: var(--fonte);
 }
 
-.box-formulario .botoes{
+.box-formulario .botoes-cadastro{
     margin-top:-.8rem;
     display:flex;
     justify-content:space-between

@@ -11,7 +11,6 @@
 }
 
 .button .green, .button .blue, .button .pink, .menu-opcoes .button a, .button .gray{
-    font-size:2rem;
     padding: .8em 2em;
     display: flex;
     align-items: center;

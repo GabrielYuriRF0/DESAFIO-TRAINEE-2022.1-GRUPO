@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,500;1,900&family=Titan+One&display=swap');
+@import './responsividade.component.css';
 
 *{
     margin:0;
@@ -17,7 +18,7 @@
 
 .view{
     background:var(--fundo);
+    padding:2.5rem;
     width:100vw;
-    height:100vh;
-    padding:2.5rem
+    height:100vh
 }

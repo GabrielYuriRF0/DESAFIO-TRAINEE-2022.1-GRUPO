@@ -9,12 +9,9 @@
 }
 
 .home .menu .logo h1{
-   font-size:4rem;
    color:var(--azul);
    font-family: 'Titan One', cursive;
    font-weight:900;
-
-   margin-left:2rem
 }
 
 .home .menu .menu-opcoes button{
@@ -36,7 +33,6 @@
 .home .footer{
     position:fixed;
     left:4rem;
-    top:59rem;
     bottom:0;
     width:100%;
 

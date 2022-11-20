@@ -25,7 +25,6 @@
 }
 
 .container-sobre .sobre .sobre-box{
-    display:flex;
     align-items:center;
     justify-content:space-between;
     padding:3rem
@@ -33,7 +32,6 @@
 
 .container-sobre .sobre .sobre-box .box{
     padding:4rem;
-    width:32rem;
     height:30rem;
     background:linear-gradient(180deg, rgba(83, 134, 250, 0.17) 0%, rgba(251, 140,172, 0.17) 100%);
     border-radius:5rem
@@ -65,13 +63,13 @@
 .container-sobre .sobre .sobre-box  .tarefas .title img{
     width:23rem;
     height:23rem;
-    left:70rem
+    left:65rem
 }
 
 .container-sobre .sobre .sobre-box  .perfil .title img{
     width:23rem;
     height:20rem;
-    left:115rem;
+    left:100rem;
     top:18rem
 }
 

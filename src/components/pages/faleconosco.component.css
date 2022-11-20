@@ -9,9 +9,7 @@
 
 .conteudo .questionario{
     position:absolute;
-    left:25rem;
     grid-area:textos;
-    width:38.8rem;
     height:40rem
 
 }

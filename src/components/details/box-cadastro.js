@@ -25,7 +25,7 @@ function BoxCadastro() {
                 </div>
                 <Input texto="senha" imagem={senha} classInput="texto" />
               </div>
-              <div className="botoes">
+              <div className="botoes-cadastro">
                 <Button text="cadastrar" classColor="pink" to="/todolist" />
                 <input id="checkbox1" class="checkbox" type="checkbox" />
                 <label for="checkbox1"></label>
