@@ -17,6 +17,8 @@ desenvolvimento de um sistema web de uma ToDo List relacionado a uma aplicação
 
 ## 📚 Como utilizar?
 
+### Inicialização do Front-end:
+
 1. criando uma cópia do repositório 
 ~~~
 git clone https://github.com/GabrielYuriRF0/DESAFIO-TRAINEE-2022.1-GRUPO.git
@@ -36,6 +38,37 @@ npm install reactjs-popup --save
 5. inicializando o servidor local
 ~~~
 npm start
+~~~
+
+### Inicialização do Back-end:
+
+1. Instalação do express
+~~~
+npm install express
+~~~
+2. Instalação do mongoose
+~~~
+npm install mongoose
+~~~
+3. Instalação do mongodb
+~~~
+npm install mongodb
+~~~
+4. Instalação do body-parser
+~~~
+npm install body-parser
+~~~
+5. Instalação do jsonwebtoken
+~~~
+npm install jsonwebtoken
+~~~
+6. Instalação do bcrypt
+~~~
+npm install bcrypt
+~~~
+7. Instalação do axios
+~~~
+npm install axios
 ~~~
 
 ## 📸 Imagens
