@@ -1,4 +1,4 @@
-const Tarefa = require('../models/Tarefa')
+const Tarefa = require('../model/Tarefa')
 
 const controller = {} // Objeto vazio
 
@@ -24,7 +24,7 @@ controller.listar = async function (req, res) {
       try {
          // find(), sem parâmetros, retorna todos
          // O parâmetro de populate() é o *ATRIBUTO* relacionado
-         const lista = await Tarefa.find().populate('tarefa')
+         const lista = await Tarefa.find().populate('usuario')
          res.send(lista) // HTTP 200 implícito
       }
       catch (erro) {
@@ -130,4 +130,4 @@ async function busca(req, res) {
    }
 }
 
-module.exports = controller
+module.exports = controller;
