@@ -2,6 +2,9 @@
   <img  src="https://user-images.githubusercontent.com/62821027/202878856-22915aec-c3bb-4391-88d3-8da54aa9b1db.png">
 </p>
 
+## 🧑‍💻 Equipe
+- Gabriel Yuri Ramalho Ferreira.
+
 ## ✏️ Descrição
 desenvolvimento de um sistema web de uma ToDo List relacionado a uma aplicação que tem como objetivo organizar ações do dia-a-dia do usuário a serem feitas.
 
@@ -69,14 +72,6 @@ npm install bcrypt
 7. Instalação do axios
 ~~~
 npm install axios
-~~~
-8. Instalação do nodemon
-~~~
-npm install nodemon
-~~~
-9. Inicializando o servidor local do back-end
-~~~
-npm run dev
 ~~~
 
 ## 📸 Imagens
