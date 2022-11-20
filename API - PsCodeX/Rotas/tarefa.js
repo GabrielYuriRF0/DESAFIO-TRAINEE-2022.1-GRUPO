@@ -1,6 +1,5 @@
 const express = require('express');
 const router = express.Router();
-
 const controller = require('../controllers/tarefa')
 
 router.post('/', controller.novo)
@@ -9,4 +8,4 @@ router.get('/:id', controller.obterUm)
 router.put('/', controller.atualizar)
 router.delete('/', controller.excluir)
 
-module.exports = router
+module.exports = router;
