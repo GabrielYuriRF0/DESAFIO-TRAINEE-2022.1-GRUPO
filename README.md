@@ -70,9 +70,13 @@ npm install bcrypt
 ~~~
 npm install axios
 ~~~
-8. inicializando o servidor local do back-end
+8. Instalação do nodemon
 ~~~
-npm start
+npm install nodemon
+~~~
+9. Inicializando o servidor local do back-end
+~~~
+npm run dev
 ~~~
 
 ## 📸 Imagens
