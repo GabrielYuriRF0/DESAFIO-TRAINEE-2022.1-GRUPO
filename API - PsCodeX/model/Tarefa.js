@@ -1,6 +1,5 @@
 const mongoose = require('mongoose');
 const Schema = mongoose.Schema;
-const bcrypt = require('bcrypt');
 
 const TarefaSchema = new Schema({
     nome: {type: String, required:true},
@@ -8,7 +7,6 @@ const TarefaSchema = new Schema({
     data: {type:Date, default:Date.now},
     concluida:{type:Boolean, default:false},
     usuario:{type: mongoose.ObjectId, ref: 'Login', required:true}
-
 });
 
-module.exports = mongoose.model('Tarefa', this.schema, 'tarefas');
+module.exports = mongoose.model('Tarefa', TarefaSchema, 'tarefas');
