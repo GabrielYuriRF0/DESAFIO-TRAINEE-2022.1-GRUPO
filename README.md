@@ -3,7 +3,7 @@
 </p>
 
 ## 🧑‍💻 Equipe
-- Gabriel Yuri Ramalho Ferreira.
+- Gabriel Yuri Ramalho Ferreira
 - Daniele de Oliveira Sousa
 - Filipe Luiz Lino de Azevedo
 - Maria Clara Oliveira Guedes
